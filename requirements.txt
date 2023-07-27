@@ -1,0 +1,3 @@
+torch==2.0.1
+spacy[transformers, cuda-autodetect]==3.5.3
+flask
