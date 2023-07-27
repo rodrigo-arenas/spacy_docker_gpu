@@ -1,5 +1,5 @@
 # Use the base image with Nvidia CUDA GPU support
-FROM nvidia/cuda:11.7.1-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:11.6.2-cudnn8-devel-ubuntu20.04
 
 # Install necessary dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
